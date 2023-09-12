@@ -103,3 +103,21 @@ To re-enable read permissions in the directory, run the following command:
 ```
 chmod u+r A
 ```
+
+## Write
+
+Writing permissions in the A directory enable you to modify its contents. For example, you can create a new file in A:
+
+```
+touch A/new
+```
+
+To deny modify permissions in A, you can run:
+```
+chmod u-w A
+```
+
+To re-grant modifying permissions in A, you can run:
+```
+chmod u+w A
+```
