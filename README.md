@@ -41,3 +41,42 @@ To re-enable writing permissions for the file, you can run:
 ```
 chmod u+w file.txt
 ```
+## Execute
+The execute permission is only valid for files that are executable.
+
+A regular file is not executable.
+
+You can create a simple c program:
+
+```
+/write.c
+
+#include <stdio.h>
+
+int main() {
+    printf("Hello, World!\n");
+    return 0;
+}
+```
+
+You can also make the file executable by compiling it using the following command:
+```
+gcc -o write write.c
+```
+
+The c program can now be executed. To view the output, you can run:
+```
+./write
+```
+
+You can deny execute permissions by running the command:
+```
+chmod u-x write
+```
+
+To re-grant executing permissions, you can run:
+```
+chmod u+x write
+```
+
+This makes the file executable once again
