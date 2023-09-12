@@ -80,3 +80,26 @@ chmod u+x write
 ```
 
 This makes the file executable once again
+
+# Directory Permissions
+
+To view the permissions of a directory, you can run the command:
+```
+ls -ld A
+```
+
+## Read
+To read the contents of a directory, you can run the command:
+```
+ls A
+```
+
+To disable read permissions of the directory, you can run:
+```
+chmod u-r A
+```
+
+To re-enable read permissions in the directory, run the following command:
+```
+chmod u+r A
+```
