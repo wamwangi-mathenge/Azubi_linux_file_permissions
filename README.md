@@ -121,3 +121,24 @@ To re-grant modifying permissions in A, you can run:
 ```
 chmod u+w A
 ```
+
+## Execute
+
+You can execute the A directory by opening a directory inside the A directory:
+```
+ls A/B
+```
+
+To deny executing permissions, you can run:
+```
+chmod u-x A
+```
+
+This prohibits the directory A from being executed.
+
+To re-enable executing properties in A:
+```
+chmod u+x A
+```
+
+With executing permissions re-enabled, you can once again execute the A directory.
