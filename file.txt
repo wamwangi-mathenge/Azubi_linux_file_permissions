@@ -1,0 +1,2 @@
+This is a sample file to demonstrate file permissions
+Making changes for the first time
